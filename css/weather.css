@@ -1,0 +1,82 @@
+﻿@charset "UTF-8";
+/**
+ * Stylesheet: example_jquerytools.css
+ *
+ * (c) 2011-2012 Zazar Ltd
+ * 
+ * Description: Example stylesheet using zWeatherFeed with jQuery Tools
+ *
+ **/
+
+.weatherFeed {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	height: 120px;
+	color: #333;
+	margin-top: 8px;
+	margin-bottom: -20px;
+	background: #6DB6FA;
+}
+.weatherFeed a { color: #888; }
+.weatherFeed a:hover {
+	color: #eee;
+	text-decoration: none;
+}
+.weatherItem {
+	padding: 0.8em;
+	text-align: right;
+}
+.weatherCity { text-transform: uppercase; color: #000; }
+.weatherTemp {
+	font-size: 2.8em;
+	font-weight: bold;
+	color: #eee;
+}
+.weatherDesc, .weatherCity { font-weight: bold; }
+.weatherDesc { margin-bottom: 0.4em; color: #eee; }
+.weatherRange, .weatherWind { font-size: 0.8em; }
+.weatherLink {
+	display:none;
+	margin-top: 6px;
+	text-align: left;
+	font-size: 0.8em;
+}
+
+.vertical {  
+	position:relative;
+	overflow:hidden;	
+	height: 120px;	 
+	border: 1px solid #555;
+	background: -moz-linear-gradient(top, rgba(0,110,46,0.57) 0%, rgba(0,110,46,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,110,46,0.57)), color-stop(100%,rgba(0,110,46,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,110,46,0.57) 0%,rgba(0,110,46,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,110,46,0.57) 0%,rgba(0,110,46,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,110,46,0.57) 0%,rgba(0,110,46,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,110,46,0.57) 0%,rgba(0,110,46,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91006e2e', endColorstr='#006e2e',GradientType=0 ); /* IE6-9 */
+	margin-top:8px;
+	margin-bottom:-20px;
+}
+
+.items {
+	position:absolute;
+	height:20000em;	
+	margin: 0px;
+}
+.items div.weatherItem { height: 160px; }
+
+.navi {
+	width:288px;
+	height:20px;
+}
+.navi a {
+	width:8px;
+	height:8px;
+	float:left;
+	margin:3px;
+	background: url('navigator.png') 0 0 no-repeat;
+	display:block;
+	font-size:1px;
+}
+.navi a:hover { background-position:0 -8px; }
+.navi a.active { background-position:0 -16px; }

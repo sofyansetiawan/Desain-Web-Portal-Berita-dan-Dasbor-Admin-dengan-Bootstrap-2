@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MemoArema | Berita Kriminal, Politik, Misteri Malang Raya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes" >
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/admin.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+  </head>
+
+  <body>
+	<div class="navbar navbar-fixed-top navbar-inverse">
+		 <div class="navbar-inner">
+		    <a class="brand" href="#" style="margin-left:10px;">Dashboard Admin</a>
+		    <ul class="nav">
+		      <li class="active"><a href="#"><span class="icon-globe icon-white"></span> Lihat Situs &raquo;</a></li>
+		      <li><a href="#"><span class="icon-bullhorn icon-white"></span> Bantuan</a></li>
+			<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">New <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">TambahTulisan</a></li>
+                          <li><a href="#">Tambah Kategori</a></li>
+                          <li><a href="#">Tambah Event</a></li>
+                          <li><a href="#">Tambah FlipBoard</a></li>
+                          <li><a href="#">Tambah Lowker</a></li>
+                          <li><a href="#">Tambah Iklan</a></li>
+                          <li><a href="#">Tambah Foto</a></li>
+                          <li><a href="#">Tambah Video</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#">Separated link</a></li>
+                        </ul>
+                      </li>
+		    </ul>
+
+		<ul class="nav pull-right">
+                      <li><a href="#">Link</a></li>
+                      <li class="divider-vertical"></li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="img/imagesite/user.png" style="width:20px;height:20px;margin-right:10px"/>Hai, Admin<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Lihat Profil</a></li>
+                          <li><a href="#">Ubah Profil</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#">Logout</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+
+		  </div>
+	</div>
+
+	<div class="container-fluid contenadmin">
+		<div class="row-fluid">
+			<div class="span3">
+			<div class="konten">
+				<div class="accordion" id="accordion2">
+						<div class="accordion-group">
+						  <div class="accordion-heading">
+						    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+						      <span class="icon-edit"></span> Posting <span class="icon-chevron-down pull-right"></span>
+						    </a>
+						  </div>
+						  <div id="collapseOne" class="accordion-body collapse" style="height: 0px; ">
+						    <div class="accordion-inner">
+							<ul class="nav nav-pills nav-stacked">
+							 <li><a href="#">Lihat</a></li>
+							 <li><a href="#">Tambah</a></li>
+							 <li><a href="#">Kategori</a></li>
+							</ul>
+						    </div>
+						  </div>
+						</div>
+
+						<div class="accordion-group">
+						  <div class="accordion-heading">
+						    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwelve">
+						      <span class="icon-book"></span> Page <span class="icon-chevron-down pull-right"></span>
+						    </a>
+						  </div>
+						  <div id="collapseTwelve" class="accordion-body collapse" style="height: 0px; ">
+						    <div class="accordion-inner">
+							<ul class="nav nav-pills nav-stacked">
+							 <li><a href="#">Lihat</a></li>
+							 <li><a href="#">Tambah</a></li>
+							 
+							</ul>
+						    </div>
+						  </div>
+						</div>
+
+						<div class="accordion-group">
+						  <div class="accordion-heading">
+						    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+						      <span class="icon-picture"></span> Foto <span class="icon-chevron-down pull-right"></span>
+						    </a>
+						  </div>
+						  <div id="collapseThree" class="accordion-body collapse" style="height: 0px; ">
+						    <div class="accordion-inner">
+								<ul class="nav nav-pills nav-stacked">
+							 <li><a href="#">Lihat</a></li>
+							 <li><a href="#">Tambah</a></li>
+							 <li><a href="#">Kategori</a></li>
+
+							</ul>
+						    </div>
+						  </div>
+						</div>
+
+						<div class="accordion-group">
+						  <div class="accordion-heading">
+						    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+						      <span class="icon-facetime-video"></span> Video <span class="icon-chevron-down pull-right"></span>
+						    </a>
+						  </div>
+						  <div id="collapseFour" class="accordion-body collapse" style="height: 0px; ">
+						    <div class="accordion-inner">
+								<ul class="nav nav-pills nav-stacked">
+							 <li><a href="#">Lihat</a></li>
+							 <li><a href="#">Tambah</a></li>
+							 
+							</ul>
+						    </div>
+						  </div>
+						</div>
+
+						<div class="accordion-group">
+						  <div class="accordion-heading">
+						    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse14">
+						      <span class="icon-file"></span> Media File <span class="icon-chevron-down pull-right"></span>
+						    </a>
+						  </div>
+						  <div id="collapse14" class="accordion-body collapse" style="height: 0px; ">
+						    <div class="accordion-inner">
+								<ul class="nav nav-pills nav-stacked">
+							 <li><a href="#">Lihat</a></li>
+							 <li><a href="#">Tambah</a></li>
+							 
+							</ul>
+						    </div>
+						  </div>
+						</div>
+						
+						<div class="accordion-group">
+						  <div class="accordion-heading">
+						    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse15">
+						      <span class="icon-user"></span> User <span class="icon-chevron-down pull-right"></span>
+						    </a>
+						  </div>
+						  <div id="collapse15" class="accordion-body collapse" style="height: 0px; ">
+						    <div class="accordion-inner">
+							<ul class="nav nav-pills nav-stacked">
+							 <li><a href="#">Lihat</a></li>
+							 <li><a href="#">Tambah</a></li>
+							 
+							</ul>
+						    </div>
+						  </div>
+						</div>
+
+						<div class="accordion-group">
+						  <div class="accordion-heading">
+						    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse13">
+						      <span class="icon-cog"></span> Setting <span class="icon-chevron-down pull-right"></span>
+						    </a>
+						  </div>
+						  <div id="collapse13" class="accordion-body collapse" style="height: 0px; ">
+						    <div class="accordion-inner">
+							<ul class="nav nav-pills nav-stacked">
+							 <li><a href="#">Lihat</a></li>
+							 <li><a href="#">Tambah</a></li>
+							 
+							</ul>
+						    </div>
+						  </div>
+						</div>
+					 </div>
+					<hr />
+
+					<div class="accordion" id="accordion3">
+
+						<div class="accordion-group">
+						  <div class="accordion-heading">
+						    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
+						      <span class="icon-signal"></span> Polling <span class="icon-chevron-down pull-right"></span>
+						    </a>
+						  </div>
+						  <div id="collapseFive" class="accordion-body collapse" style="height: 0px; ">
+						    <div class="accordion-inner">
+							<ul class="nav nav-pills nav-stacked">
+							 <li><a href="#">Lihat</a></li>
+							 <li><a href="#">Tambah</a></li>
+							 
+							</ul>
+						    </div>
+						  </div>
+						</div>
+
+						<div class="accordion-group">
+						  <div class="accordion-heading">
+						    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix">
+						      <span class="icon-time"></span> Event <span class="icon-chevron-down pull-right"></span>
+						    </a>
+						  </div>
+						  <div id="collapseSix" class="accordion-body collapse" style="height: 0px; ">
+						    <div class="accordion-inner">
+								<ul class="nav nav-pills nav-stacked">
+							 <li><a href="#">Lihat</a></li>
+							 <li><a href="#">Tambah</a></li>
+							 
+							</ul>
+						    </div>
+						  </div>
+						</div>
+
+						<div class="accordion-group">
+						  <div class="accordion-heading">
+						    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven">
+						      <span class="icon-th-large"></span> Flip Board <span class="icon-chevron-down pull-right"></span>
+						    </a>
+						  </div>
+						  <div id="collapseSeven" class="accordion-body collapse" style="height: 0px; ">
+						    <div class="accordion-inner">
+								<ul class="nav nav-pills nav-stacked">
+							 <li><a href="#">Lihat</a></li>
+							 <li><a href="#">Tambah</a></li>
+							 
+							</ul>
+						    </div>
+						  </div>
+						</div>
+
+						<div class="accordion-group">
+						  <div class="accordion-heading">
+						    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseEight">
+						      <span class="icon-plane"></span> Lowker <span class="icon-chevron-down pull-right"></span>
+						    </a>
+						  </div>
+						  <div id="collapseEight" class="accordion-body collapse" style="height: 0px; ">
+						    <div class="accordion-inner">
+								<ul class="nav nav-pills nav-stacked">
+							 <li><a href="#">Lihat</a></li>
+							 <li><a href="#">Tambah</a></li>
+							 
+							</ul>
+						    </div>
+						  </div>
+						</div>
+
+						<div class="accordion-group">
+						  <div class="accordion-heading">
+						    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseNine">
+						      <span class="icon-volume-up"></span> Aspirasi <span class="icon-chevron-down pull-right"></span>
+						    </a>
+						  </div>
+						  <div id="collapseNine" class="accordion-body collapse" style="height: 0px; ">
+						    <div class="accordion-inner">
+								<ul class="nav nav-pills nav-stacked">
+							 <li><a href="#">Lihat</a></li>
+							 <li><a href="#">Tambah</a></li>
+							 
+							</ul>
+						    </div>
+						  </div>
+						</div>
+
+						<div class="accordion-group">
+						  <div class="accordion-heading">
+						    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTen">
+						      <span class="icon-list-alt"></span> Edisi Cetak <span class="icon-chevron-down pull-right"></span>
+						    </a>
+						  </div>
+						  <div id="collapseTen" class="accordion-body collapse" style="height: 0px; ">
+						    <div class="accordion-inner">
+								<ul class="nav nav-pills nav-stacked">
+							 <li><a href="#">Lihat</a></li>
+							 <li><a href="#">Tambah</a></li>
+							 
+							</ul>
+						    </div>
+						  </div>
+						</div>
+
+						<div class="accordion-group">
+						  <div class="accordion-heading">
+						    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseEleven">
+						      <span class="icon-bookmark"></span> Iklan <span class="icon-chevron-down pull-right"></span>
+						    </a>
+						  </div>
+						  <div id="collapseEleven" class="accordion-body collapse" style="height: 0px; ">
+						    <div class="accordion-inner">
+								<ul class="nav nav-pills nav-stacked">
+							 <li><a href="#">Lihat</a></li>
+							 <li><a href="#">Tambah</a></li>
+							<li><a href="#">Kategori</a></li>
+
+							</ul>
+						    </div>
+						  </div>
+						</div>
+
+					      </div>
+				</div>
+			</div>
+			<div class="span9">
+				<div class="konten">
+						<h4>Tambah Foto</h4>
+						<hr />
+						<div class="row-fluid">
+							<div class="span12">
+							<form>
+								<div class="span8">
+									<label>Judul</label>
+									<input type="text" placeholder="Ketikkan Judul.." class="input-xxlarge" />
+									<label>Foto</label>
+									<input type="file" class="span5" placeholder="Pilih gambar" />
+									<hr />
+									<textarea class="ckeditor" name="editor-post"></textarea>
+									
+								</div>
+								<div class="span4">
+										<table class="table table-hover">
+											<thead>
+												<tr>
+													<td colspan="2">Status Posting</td>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Status : </a></td>
+													<td>Published <a href="">Edit</td>
+												</tr>
+												<tr>
+													<td>Visibility : </a></td>
+													<td>Public <a href="">Edit</td>
+												</tr>
+												<tr>
+													<td>Date Published : </a></td>
+													<td>22 Agustus 2012 <a href="">Edit</td>
+												</tr>
+												<tr>
+													<td><button type="submit" class="btn btn-warning disabled">Hapus</button></td>
+													<td><button type="submit" class="btn btn-primary">Simpan</button></td>
+												</tr>
+											</tbody>
+										</table>
+										<hr />
+										<label>Kategori:</label>
+										<div class="kategori">
+										<input type="checkbox" name="kategori" value="1" />  Kriminal<br />
+										<input type="checkbox" name="kategori" value="1" />  Politik<br />
+										<input type="checkbox" name="kategori" value="1" />  Misteri<br />
+										<input type="checkbox" name="kategori" value="1" />  Sepakbola<br />
+										<input type="checkbox" name="kategori" value="1" />  Saintek<br />
+										<input type="checkbox" name="kategori" value="1" />  Lain-Lain<br />
+										</div>
+								</div>
+							</div>
+						</form>
+						</div>
+						
+
+						<div class="row-fluid">
+							<div class="span12">
+								
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer align="center">
+		<h5>&copy; Memoarema 2012 - Powered by AirFly Media</h5>
+	</footer>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap-dropdown.js"></script>
+	<script src="js/bootstrap-collapse.js"></script>
+	<script src="js/ckeditor/ckeditor.js"></script>
+
+  </body>
+</html>
